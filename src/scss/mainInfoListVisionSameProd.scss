@@ -1,0 +1,37 @@
+.same-produkt-table td:last-child,
+.same-produkt-table th:last-child {
+  width: 70%;
+}
+.cell-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-info-same-produkt-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+.main-info-btn-expend {
+  width: 100px;
+  height: 40px;
+  padding: 8px 15px;
+  border: 1px solid #8184af;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.main-info-btn-add {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  border-radius: 10px;
+  width: 80px;
+  height: 40px;
+  background-color: #8184af;
+}
