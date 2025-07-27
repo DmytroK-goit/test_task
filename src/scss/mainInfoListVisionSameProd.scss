@@ -6,6 +6,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  // padding-left: 30px;
+  padding-right: 30px;
 }
 .main-info-same-produkt-buttons {
   display: flex;
@@ -24,6 +26,7 @@
   font-weight: 400;
   font-size: 20px;
   text-transform: capitalize;
+  color: #525369;
 }
 .main-info-btn-add {
   font-weight: 700;

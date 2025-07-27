@@ -3,7 +3,6 @@
 @import './mainInfoListLoc.scss';
 @import './mainInfoListVision.scss';
 @import './mainInfoListVisionSameProd.scss';
-@import './vite-promo.scss';
 
 :root {
   --font-family: 'Raleway', sans-serif;
@@ -11,6 +10,7 @@
   font-size: 16px;
   font-weight: 400;
   color: #525369;
+  line-height: 1;
   background-color: #fff;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
