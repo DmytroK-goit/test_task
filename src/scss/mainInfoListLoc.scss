@@ -2,7 +2,6 @@
   display: flex;
   margin-top: 30px;
   width: 1500px;
-  height: 281px;
   border-top: 1px solid rgba(129, 132, 175, 0.3);
   flex-direction: column;
 }
@@ -10,6 +9,9 @@
   font-weight: 700;
   font-size: 25px;
   text-transform: capitalize;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-bottom: 15px;
 }
 
 .main-info-list-title-span {
@@ -45,6 +47,14 @@
   height: 46px;
 }
 .main-info-list-table tbody td {
-  text-align: left;
   padding-left: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.main-info-list-table-row {
+  height: 46px;
+}
+.main-info-list-table button {
+  background-color: transparent;
 }
